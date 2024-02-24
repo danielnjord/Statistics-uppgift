@@ -36,6 +36,7 @@ namespace Statistics
             return output;
         }
 
+        
         public static int Maximum()
         {
             Array.Sort(Statistics.source);
@@ -43,6 +44,8 @@ namespace Statistics
             int result = source[0];
             return result;
         }
+        
+
 
         public static int Minimum()
         {
